@@ -2,11 +2,7 @@
     "name": "greenscreens",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
-    "output": {
-        "filename": "bundle.js",
-        "path": "/"
-    },
+    "private": true,
     "homepage": "https://levganochkin.github.io/greenscreens-test",
     "scripts": {
         "start": "webpack serve --mode development",
