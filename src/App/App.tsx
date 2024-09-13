@@ -13,6 +13,7 @@ export function App() {
             element: <RootLayout />,
             children: [
                 {
+                    path: "/",
                     index: true,
                     element: <PricingPage />,
                 },
