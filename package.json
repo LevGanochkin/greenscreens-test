@@ -1,0 +1,46 @@
+{
+    "name": "greenscreens",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "homepage": "https://levganochkin.github.io/greenscreens-test",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/levganochkin/greenscreens-test.git"
+    },
+    "scripts": {
+        "start": "webpack serve --mode development",
+        "build": "webpack --mode production",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@emotion/react": "^11.13.3",
+        "@emotion/styled": "^11.13.0",
+        "@mirawision/usa-map-react": "^1.0.6",
+        "@mui/material": "^6.0.2",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^6.26.2"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.24.7",
+        "@types/react": "^18.3.5",
+        "@types/react-dom": "^18.3.0",
+        "@types/react-router-dom": "^5.3.3",
+        "css-loader": "^7.1.2",
+        "file-loader": "^6.2.0",
+        "gh-pages": "^6.1.1",
+        "html-webpack-plugin": "^5.6.0",
+        "style-loader": "^4.0.0",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.5.4",
+        "webpack": "^5.94.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.1.0"
+    }
+}
